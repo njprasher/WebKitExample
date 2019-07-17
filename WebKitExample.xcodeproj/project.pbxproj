@@ -12,6 +12,8 @@
 		4C65236B22DFDC08008729CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C65236922DFDC08008729CD /* Main.storyboard */; };
 		4C65236D22DFDC09008729CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C65236C22DFDC09008729CD /* Assets.xcassets */; };
 		4C65237022DFDC09008729CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C65236E22DFDC09008729CD /* LaunchScreen.storyboard */; };
+		4C65237922DFDE95008729CD /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C65237822DFDE95008729CD /* WebKit.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		4C65237B22DFE0A4008729CD /* about.html in Resources */ = {isa = PBXBuildFile; fileRef = 4C65237A22DFE0A4008729CD /* about.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		4C65236C22DFDC09008729CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4C65236F22DFDC09008729CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4C65237122DFDC09008729CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C65237822DFDE95008729CD /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		4C65237A22DFE0A4008729CD /* about.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = about.html; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C65237922DFDE95008729CD /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +45,7 @@
 			children = (
 				4C65236422DFDC08008729CD /* WebKitExample */,
 				4C65236322DFDC08008729CD /* Products */,
+				4C65237722DFDE95008729CD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,12 +62,21 @@
 			children = (
 				4C65236522DFDC08008729CD /* AppDelegate.swift */,
 				4C65236722DFDC08008729CD /* ViewController.swift */,
+				4C65237A22DFE0A4008729CD /* about.html */,
 				4C65236922DFDC08008729CD /* Main.storyboard */,
 				4C65236C22DFDC09008729CD /* Assets.xcassets */,
 				4C65236E22DFDC09008729CD /* LaunchScreen.storyboard */,
 				4C65237122DFDC09008729CD /* Info.plist */,
 			);
 			path = WebKitExample;
+			sourceTree = "<group>";
+		};
+		4C65237722DFDE95008729CD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4C65237822DFDE95008729CD /* WebKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,6 +137,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C65237B22DFE0A4008729CD /* about.html in Resources */,
 				4C65237022DFDC09008729CD /* LaunchScreen.storyboard in Resources */,
 				4C65236D22DFDC09008729CD /* Assets.xcassets in Resources */,
 				4C65236B22DFDC08008729CD /* Main.storyboard in Resources */,
